@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#00ffffff"
+    android:padding="@dimen/widget_margin">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:background="#0fff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/button"
+        android:textSize="12sp"
+        android:text="refresh"
+        android:onClick="onClick"
+        />
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/appwidget_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:background="#000099cc"
+        android:contentDescription="@string/appwidget_text"
+        android:text="@string/appwidget_text"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        tools:textColor="#000"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
