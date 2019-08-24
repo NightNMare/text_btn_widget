@@ -22,6 +22,9 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
+    //https://github.com/5d-jh/school-menu-api
+    //https://schoolmenukr.ml/api/high/B100000658?month=9&day=16
+
     long mNow;
     Date mDate;
     SimpleDateFormat mFormat = new SimpleDateFormat("yyyyMMdd");
